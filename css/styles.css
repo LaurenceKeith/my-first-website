@@ -42,13 +42,11 @@ nav a:hover {
 }
 
 .card {
-    float: left;
+    xfloat: left;
     width: 20%;
     margin-left: 10%;
-}
-
-.card a {
     text-align: center;
+    display: inline-block;
 }
 
 img {
@@ -56,6 +54,3 @@ img {
     height: 5rem;
 }
 
-.xcard h2 {
-    text-align: center;
-}
